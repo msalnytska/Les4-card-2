@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: url(https://st2.depositphotos.com/1831081/9952/i/950/depositphotos_99521616-stock-photo-concept-green-blurred-world-map.jpg);
+}
+
+.card {
+	max-width: 400px;
+	width: 100%;
+	display: block;
+  box-shadow: 0 0 15px 0 white;
+
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background: #2CB5DC;
+  border-radius: 15px 15px 0 0;
+	padding: 50px;
+	
+}
+
+.avatar {
+	max-width: 180px;
+	width: 100%;
+	height: auto;
+  border-radius:50%;
+}
+
+.border {
+	padding: 10px;
+	border: 3px solid #ffffff;
+	border-radius: 50%;
+}
+
+.data {
+	display: block;
+	width: 50%;
+  font-size: 30px;
+	color: #ffffff;
+  margin-left:30px;
+  font-weight: bold;
+
+}
+.twitterlogin {
+	margin-top: 10px;
+}
+
+.social_list {
+  width: 100%;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ffffff;
+	padding: 50px;
+}
+
+.social_list-data {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	min-width: 100px;
+	padding: 10px;
+	color: #B0A6A3;
+	background: #ECE7E4;
+
+}
+
+.social_list-point:not(:first-child) {
+	margin-left: 2px;
+}
+
+.social_list-data > span:first-child {
+	font-size: 1.3em
+}
+
+.social_list-data > span:last-child {
+	font-size: 0.9em
+}
+
+.data-first {
+	border-radius: 10px 0 0 10px;
+}
+
+.data-last {
+	border-radius: 0 10px 10px 0;
+}
+
+.button-area {
+	background: #ECE7E4;
+	padding: 50px;
+	border-radius: 0 0 40px 40px;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #E25734;
+	color: #ffffff;
+	width: 100%;
+	padding: 15px;
+	border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.5); 
+    padding: 10px;
+  
+}
+
+.button-text {
+  
+  font-size:24px;
+  font-weight:bold;
+}
+
+.button:hover {
+	background: #2CB4DF;
+
+}
